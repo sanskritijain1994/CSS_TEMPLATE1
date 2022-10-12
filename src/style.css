@@ -1,101 +1,76 @@
-/* styling for whole webpage*/
-*{
-    margin:0;
-    padding:0;
-    
+.header1 {
+  background-color: rgb(197, 197, 197);
+  height: 56px;
+  width: auto;
 }
-/* Styling for the content of webpage*/
-body{
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
-}
-/* Styling for h2 heading */
-h2{
-    margin-top: 10px;
-    color:blue
-}
-h3{
-    margin-top:10px;
-    color:blue;
-}
-/* Styling for footer */
-footer{
-    position: fixed;
-    bottom: 0px;
-    right:0px;
-}
-/* Class created for the haeding for the page*/
-.banner{
-    padding-top: 20px;
-    padding-bottom: 20px;
-    padding-left: 20px;
-    background-color: rgb(231, 231, 231);
-    
-}
-.banner h1{
-    font-size:30px;
-    width:400px;
-    
-    background-color: rgb(231, 231, 231);
-}
-/* class is created for the navigation bar */
-.navi{
-    background-color: black;
-}
-.navi ul{
-    overflow: auto;
-}
-.navi li{
-    float: left;
-    list-style: none;
-    margin:2px;
-}
-.navi li a{
-    text-decoration: none;
-    font-size: 20px;
-    padding:3px;
-    color:white;
-}
-.navi li a:hover{
-    background-color: green;
-}
-.navi li a:active{
-    background-color: green;
-}
-/* class created for footer */
-.footer{
-    text-align: right;
-    background-color: rgb(231, 231, 231);
-    color:black;
-}
-/* class created for the the content of webpage*/
-.content{
-    font-size:"10px";
-    margin-left: 40px;
 
+.h1 {
+  color: black;
+  margin-left: 2%;
+  padding: 1%;
 }
-/* id created */
-#div1{
-    float:left;
-    width:60%;
-    text-align: justify;
+
+.li {
+  display: inline;
+  float: left;
+  border: 20px;
 }
-#div2{
-    float: right;
-    width:30%;  
-    height:500px;
-    background-color: rgb(231, 231, 231);
+
+.li a {
+  padding-left: 5px;
+  padding-right: 50px;
+  background-color: rgb(5, 2, 2);
+  text-decoration: none;
+  color: white;
+  margin-right: 14px;
+  margin-left: -44px;
+  float: left;
+  border-right: 1px solid rgb(255, 255, 255);
+  border-left: 1px solid rgb(255, 255, 255);
 }
-.div2 h3{
-    padding-left: 10px;
+
+.li a:hover {
+  background-color: green;
 }
-.div2 p{
-    padding-left: 10px;
+
+.ul {
+  padding-top: -10px;
+  margin-top: 0px;
+
+  background-color: black;
+  border-style: solid;
+  border-right: 10px;
+
+  display: flex;
 }
-.div3{
-    width:1400px;
-    height: 30px;
-    background:rgb(214, 211, 211);
+
+.h2 {
+  color: rgb(45, 45, 139);
 }
-.div3 p{
-    padding-top:7px;
+
+.Body3 {
+  display: flex;
+  padding: 26px;
+  margin-top: -41px;
+}
+
+.body4 {
+  background-color: rgb(197, 197, 197);
+  padding: 20px;
+  margin-right: -25px;
+}
+
+.footer {
+  background-color: rgb(180, 179, 179);
+  height: 56px;
+  width: auto;
+  margin-top: -26px;
+}
+
+.h3 {
+  color: rgb(45, 45, 139);
+}
+
+.footer1 {
+  float: right;
 }
